@@ -1,0 +1,20 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'link' ]
+2 info using npm@1.2.3
+3 info using node@v0.9.8
+4 verbose linkPkg /Users/marcw/src/misc/NodeLiveLessons/Lesson05/project_b
+5 verbose read json /Users/marcw/src/misc/NodeLiveLessons/Lesson05/project_b/package.json
+6 error Error: ENOENT, open '/Users/marcw/src/misc/NodeLiveLessons/Lesson05/project_b/package.json'
+7 error If you need help, you may report this log at:
+7 error     <http://github.com/isaacs/npm/issues>
+7 error or email it to:
+7 error     <npm-@googlegroups.com>
+8 error System Darwin 12.2.0
+9 error command "/usr/local/bin/node" "/usr/local/bin/npm" "link"
+10 error cwd /Users/marcw/src/misc/NodeLiveLessons/Lesson05/project_b
+11 error node -v v0.9.8
+12 error npm -v 1.2.3
+13 error path /Users/marcw/src/misc/NodeLiveLessons/Lesson05/project_b/package.json
+14 error code ENOENT
+15 error errno 34
+16 verbose exit [ 34, true ]

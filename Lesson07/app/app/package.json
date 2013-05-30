@@ -1,0 +1,10 @@
+{
+  "name": "photo_sharing",
+  "description": "photo sharing  with expressjs",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "express" : "3.x",
+    "async" : "0.x"
+  }
+}

@@ -1,0 +1,9 @@
+{
+        "name" : "proxy_demo",
+        "description" : "demo the proxy",
+        "version" : "0.0.1",
+        "private" : true,
+        "dependencies" : {
+            "http-proxy" : "0.8.x"
+        }
+}

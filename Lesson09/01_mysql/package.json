@@ -1,0 +1,10 @@
+{
+  "name": "mysql-Demo",
+  "description": "Demonstrates Using MySQL in Node.js",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "async": "0.1.x",
+    "mysql": "2.x"
+  }
+}

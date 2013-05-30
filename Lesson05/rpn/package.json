@@ -1,0 +1,6 @@
+{
+  "name": "rpn",
+  "description": "A simple module for RPN computations",
+  "version": "0.5.0",
+  "main": "./lib/rpn.js"
+}

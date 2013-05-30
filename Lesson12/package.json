@@ -1,0 +1,12 @@
+{
+        "name" : "testing_demo",
+        "description" : "demo simple testing",
+        "version" : "0.0.1",
+        "private" : true,
+        "dependencies" : {
+            "async" : "0.x",
+            "nodeunit" : "0.7.x",
+            "request" : "2.x"
+        }
+}
+

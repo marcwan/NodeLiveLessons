@@ -1,0 +1,26 @@
+exports.authenticate_API = function (un, pw, callback) {
+    if (req.session && req.session.logged_in
+        && req.session.logged_in_email_address == un) {
+        callback(null, un);
+        return;
+    } 
+
+    async.waterfall([
+        function (cb) {
+            user_data.user_by_email_address(un, cb);
+        },
+
+        function (user_data, cb) {
+            var u = new User(user_data);
+            u.check_password(pw, cb);
+        }
+    ],
+    function (err, results) {
+        if (!err) {
+            callback(null, un);
+        } else {
+            callback(new Error("bogus credentials"));
+        }
+    });
+};
+

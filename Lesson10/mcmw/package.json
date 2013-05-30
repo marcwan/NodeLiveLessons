@@ -1,0 +1,10 @@
+{
+        "name" : "memcached_sessions",
+        "description" : "demo mcd sessions",
+        "version" : "0.0.1",
+        "private" : true,
+        "dependencies" : {
+            "express": "3.x",
+            "connect-memcached" : "0.0.x"
+        }
+}
