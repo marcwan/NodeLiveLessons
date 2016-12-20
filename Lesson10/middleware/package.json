@@ -1,0 +1,14 @@
+{
+  "name" : "middlewaretest",
+  "description" : "So we can test out middleware",
+  "version" : "0.0.1",
+  "private" : true,
+  "dependencies" : {
+    "body-parser" : "1.x",
+    "cookie-parser" : "1.x",
+    "express" : "4.x",
+    "express-session" : "1.x",
+    "morgan" : "1.x",
+    "multer" : "1.x"
+  }
+}

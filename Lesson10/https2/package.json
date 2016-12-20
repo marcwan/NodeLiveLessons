@@ -1,0 +1,10 @@
+{
+  "name": "proxy_https_demo",
+  "description": "Demonstrates proxies and HTTPS",
+  "version": "0.0.2",
+  "private": true,
+  "dependencies": {
+    "express": "4.x",
+    "http-proxy": "1.x"
+  }
+}

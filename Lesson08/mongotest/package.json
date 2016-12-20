@@ -1,0 +1,10 @@
+{
+  "name" : "mongodb_testing",
+  "description" : "Testing out mongodb in node.js",
+  "version" : "0.1.0",
+  "private" : true,
+  "dependencies" : {
+    "async" : "2.x",
+    "mongodb" : "2.x"
+  }
+}

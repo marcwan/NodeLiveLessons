@@ -1,0 +1,22 @@
+<div style='float: right'><a href='/pages/register'>Register</a></div>
+<form name="login" id="login" method="post" action="/service/login">
+  <div id="error" class="error"></div>
+  <dl>
+    <dt>Username:</dt>
+    <dd><input type="text" size="30" id="username" name="username"/></dd>
+    <dt>Password:</dt>
+    <dd><input type="password" size="30" id="password" name="password"/></dd>
+    <dd><input type="submit" value="Login"/>
+  </dl>
+</form>
+
+
+<script type="text/javascript">
+
+$(document).ready(function () {
+    if (window.location.href.match(/(fail)/) != null) {
+        $("#error").html("Invalid login credentials.");
+    }
+});
+
+</script>

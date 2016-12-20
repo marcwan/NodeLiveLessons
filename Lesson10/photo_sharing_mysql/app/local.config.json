@@ -1,0 +1,13 @@
+{
+    "config": {
+        "db_config": {
+            "host": "localhost",
+            "user": "root",
+            "password": "",
+            "database": "PhotoAlbums"
+        },
+
+        "static_content": "../static/",
+        "port_number" : 8080
+    }
+}

@@ -1,1 +1,0 @@
-curl -i -X POST --data 'field1=123&field2=value 2' http://localhost:8080

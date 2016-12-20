@@ -8,8 +8,8 @@ PGREP=/usr/bin/pgrep
 AWK=/usr/bin/awk
 NODE=/usr/local/bin/node
 PS=/bin/ps
-PS_FLAGS=wux
-AWK_PROG='{print $6}'  # on OS X and ubuntu res mem size is $6 in "ps wux"
+PS_FLAGS=wux           # some linux use "ps wup" instead -- check!!!
+AWK_PROG='{print $6}'  # on OS X and many linux, res mem size is $6 in "$PS_FLAGS"
 PAUSE_TIME=4
 
 

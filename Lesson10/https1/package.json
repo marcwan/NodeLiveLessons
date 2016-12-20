@@ -1,0 +1,9 @@
+{
+  "name" : "https-demo",
+  "description" : "simple https demo using express",
+  "version" : "0.0.1",
+  "private" : true,
+  "dependencies" : {
+    "express" : "4.x"
+  }
+}

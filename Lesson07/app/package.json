@@ -1,0 +1,11 @@
+{
+  "name" : "photo_sharing_app",
+  "description" : "photo sharing with expressjs!",
+  "version" : "0.0.1",
+  "private" : true,
+  "dependencies" : {
+    "express" : "4.x",
+    "morgan" : "1.x",
+    "response-time" : "2.x"
+  }
+}

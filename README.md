@@ -3,4 +3,6 @@ NodeLiveLessons
 
 Accompanying source code for the Node.JS LiveLessons.
 
-NOTE: Version 2.0 LiveLessons source code coming in the next day or so. Just preparing it now for uploading!
+Source code for v1 can be found in the
+[v1 branch](https://github.com/marcwan/NodeLiveLessons/tree/v1).
+

@@ -1,0 +1,9 @@
+{
+  "name" : "express_test_app",
+  "description" : "we're getting started with expressjs!!!!",
+  "version" : "0.0.1",
+  "private" : true,
+  "dependencies" : {
+    "express" : "4.x"
+  }
+}
