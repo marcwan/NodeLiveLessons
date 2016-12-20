@@ -1,11 +1,9 @@
 <?php
 
+$file = fopen('test.txt', 'r');
 
-$f = fopen('test.txt', 'r');
-
-$contents = fread($f, 100000);
+$contents = fread($file, 100000);
 
 echo $contents;
 
-fclose($f);
-
+fclose($file);
