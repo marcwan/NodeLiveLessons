@@ -35,6 +35,6 @@ rs.on(
 rs.on(
   "error",
   (err) => {
-    console.log("I got an error reading the stream: " + JSON.stringif(err));
+    console.log("I got an error reading the stream: " + JSON.stringify(err));
   }
 );
